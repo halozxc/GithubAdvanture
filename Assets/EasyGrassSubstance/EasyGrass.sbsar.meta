@@ -17,7 +17,7 @@ ScriptedImporter:
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://EasyGrass\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"3625370201\" type=\"8\" value=\"9,9\" />\n 
-      <presetinput identifier=\"Zoom\" uid=\"2935067436\" type=\"4\" value=\"4\"
+      <presetinput identifier=\"Zoom\" uid=\"2935067436\" type=\"4\" value=\"6\"
       />\n  <presetinput identifier=\"Grass_Thickness\" uid=\"2935067512\" type=\"4\"
       value=\"2\" />\n </sbspreset>\n"
     shaderName: Standard
