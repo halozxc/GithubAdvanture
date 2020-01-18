@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public PlayerController player;
+    public  PlayerController player;
     public List<PathCondition> pathConditions = new List<PathCondition>();
     public List<Transform> pivots;
 
