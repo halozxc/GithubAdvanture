@@ -37,6 +37,7 @@
         <e p="JumpScene.cs" t="Include" />
         <e p="PlayerAnimation.cs" t="Include" />
         <e p="PlayerController.cs" t="Include" />
+        <e p="RenderCubemapWizard.cs" t="Include" />
         <e p="Shader" t="Include">
           <e p="WaterWave.shader" t="Include" />
         </e>

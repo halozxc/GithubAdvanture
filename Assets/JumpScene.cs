@@ -21,6 +21,7 @@ public class JumpScene : MonoBehaviour
         if (CastUp())
         {
             Debug.Log("Player go to the destination");
+            SceneJump();
         }
     }
 
