@@ -18,7 +18,7 @@
 
   如下图所示
 
-  <img src="C:\Users\WR\Desktop\GithubAdvanture\Pictures\FrameWork.png" alt="FrameWorl" style="zoom:50%;" />
+  ![FrameWork](https://github.com/halozxc/GithubAdvanture/blob/master/Pictures/FrameWork.png)
 
   每个场景都具有<font color=yellow>一个GameManager，一个Player和一个由若干个具有Walkable组件的game object组成的地图</font>,GameManager负责控制地图上机关，记录地图与玩家的基本情况，Player由PlayerController组件控制，负责控制移动与寻路(点击方块的时候会移动到那里)，Walkable组件负责标记与连接路径。
 
@@ -28,7 +28,7 @@
 
   如下图所示，以cube（11）为例
 
-![sample](C:\Users\WR\Desktop\GithubAdvanture\Pictures\Sample.png)
+![sample](https://github.com/halozxc/GithubAdvanture/blob/master/Pictures/Level1.png)
 
 
 
@@ -64,4 +64,3 @@
 4. 找到 <font color=green>Cube(27)</font>,在其JumpScene组件的<font color=b728bc>Next Scene</font>属性中，填入"Level3"
 5. 添加一个空物体，并为其添加AudioSource组件，添加的AudioClip为"The voice in my heart"
 6. 点击运行，看小球是否可以正常运行
-
