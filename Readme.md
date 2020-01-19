@@ -38,7 +38,7 @@
 
 那么，背景知识就介绍到这里啦，在具体的场景搭建中我会给出进一步的说明的
 
-### Level1具体任务解释
+### Level1具体任务
 
 1. 请在层级面板找到<font color=grenn>Player</font>，为其添加PlayerController组件，并将<font color=grenn>indicator</font> 拖到PlayerController组件下的<font color=b728bc>indicator</font>属性中
 2. 将<font color=grenn>Player</font>拖到<font color=green>GameManager</font>的GameManager组件的<font color=b728bc>Player</font>属性中，
@@ -47,7 +47,7 @@
 5. 添加一个空物体，并为其添加AudioSource组件，添加的AudioClip为"The voice in my heart"
 6. 点击运行，看小球是否可以正常运行
 
-### Level2具体任务解释
+### Level2具体任务
 
 1. 请在层级面板找到<font color=grenn>Player</font>，为其添加PlayerController组件，并将<font color=grenn>indicator</font> 拖到PlayerController组件下的<font color=b728bc>indicator</font>属性中
 2. 将<font color=grenn>Player</font>拖到<font color=green>GameManager</font>的GameManager组件的<font color=b728bc>Player</font>属性中，
@@ -57,12 +57,40 @@
 6. 添加一个空物体，并为其添加AudioSource组件，添加的AudioClip为"The voice in my heart"
 7. 点击运行，看小球是否可以正常运行
 
-### Level3具体任务解释
+### Level3具体任务
 
 1. 请在层级面板找到<font color=grenn>Player</font>，为其添加PlayerController组件，并将<font color=grenn>indicator</font> 拖到PlayerController组件下的<font color=b728bc>indicator</font>属性中
 2. 将<font color=grenn>Player</font>拖到<font color=green>GameManager</font>的GameManager组件的<font color=b728bc>Player</font>属性中
 3. 将地图中所有的楼梯形状的物体的walkable组件的isstair属性勾上
-4. 根据背景知识所讲述的操作，完成地图的搭建。（平路的部分已经搭建完成，根据Game视图可知，<font color=grenn>Cube(16)</font>与<font color=green>Cube(12)</font>是相通的，需要将两者连接起来）
+4. 根据背景知识所讲述的操作，完成地图的搭建。
 5. 找到 <font color=green>Cube(27)</font>,在其JumpScene组件的<font color=b728bc>Next Scene</font>属性中，填入"Level4"
 6. 添加一个空物体，并为其添加AudioSource组件，添加的AudioClip为"The voice in my heart"
 7. 点击运行，看小球是否可以正常运行
+
+### Level4具体任务
+
+1. 请在层级面板找到<font color=grenn>Player</font>，为其添加PlayerController组件，并将<font color=grenn>indicator</font> 拖到PlayerController组件下的<font color=b728bc>indicator</font>属性中
+2. 将<font color=grenn>Player</font>拖到<font color=green>GameManager</font>的GameManager组件的<font color=b728bc>Player</font>属性中
+3. 根据背景知识所讲述的操作，完成地图的搭建。
+4. 找到 <font color=green>Cube(27)</font>,在其JumpScene组件的<font color=b728bc>Next Scene</font>属性中，填入"Level5"
+5. 添加一个空物体，并为其添加AudioSource组件，添加的AudioClip为"The voice in my heart"
+6. 点击运行，看小球是否可以正常运行
+
+### Level5具体任务
+
+1. 请在层级面板找到<font color=grenn>Player</font>，为其添加PlayerController组件，并将<font color=grenn>indicator</font> 拖到PlayerController组件下的<font color=b728bc>indicator</font>属性中
+2. 将<font color=grenn>Player</font>拖到<font color=green>GameManager</font>的GameManager组件的<font color=b728bc>Player</font>属性中
+3. 将地图中所有的楼梯形状的物体的walkable组件的isstair属性勾上
+4. 根据背景知识所讲述的操作，完成地图的搭建。（平路的部分已经搭建完成，根据Game视图可知，<font color=grenn>Cube(27)</font>与<font color=green>Stairs(11)</font>是相通的，需要将两者连接起来）
+5. 找到 <font color=green>Cube(27)</font>,在其JumpScene组件的<font color=b728bc>Next Scene</font>属性中，填入"SampleScene"
+6. 添加一个空物体，并为其添加AudioSource组件，添加的AudioClip为"The voice in my heart"
+7. 点击运行，看小球是否可以正常运行
+
+## 最后的一些话
+
+- 关于此项目的任何问题都可以来问我（私聊或者在issue区提问）
+
+- 祝各位寒假快乐😄
+
+  
+
